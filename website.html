@@ -31,22 +31,33 @@
             Search: <input type="text">
             <input id="btn" type="button" value="Submit">
         </form>
+        <div class="no">I am dummy div 1</div>
+        <div class="no">I am dummy div 2</div>
+        <div class="no">I am dummy div 3</div>
     </div> <br>
-    <div class="no">I am dummy div 1</div>
-    <div class="no">I am dummy div 2</div>
-    <div class="no">I am dummy div 3</div>
-    
+
     <div class="container">
-        <h2>Students List</h2>
-        <ul id="student"></ul>
-        <button id="myBtn" class="btn btn-primary">Your Button</button>
-        <button id="fetchBtn" class="btn btn-secondary">Fetch Data</button>
+        <form>
+            <div class="mb-3">
+                <label for="alarm" class="form-label">Set Alarm</label>
+                <input type="text" class="form-control" id="alarm" placeholder="Enter you alarm in yyyy-mm-dd hh:mm:ss format.">
+                <div class="form-text">We'll never share your alarm with anyone else.</div>
+            </div>
 
-        <div id="content">
+            <button id="alarmSubmit" type="submit" class="btn btn-primary">Set Alarm</button>
+        </form>
+        <br>
+        <audio id="myAudio">
+            <!-- <source src="horse.ogg" type="audio/ogg"> -->
+            <source src="./Delilah.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
 
-        </div>
+        <p>Click the buttons to play or pause the audio.</p>
+        <button id="btn1" type="button">Play Audio</button>
+        <button id="btn2" type="button">Pause Audio</button>
     </div>
-    <!-- <script src="./12_DOM.js"></script> -->
+    <!-- <script src="./12_DOM.js"></> -->
     <!-- <script src="./14_HTML_element_selectors.js"></script> -->
     <!-- <script src="./15_traversing_the_DOM.js"></script> -->
     <!-- <script src="./16_creating_removing_replacing_element.js"></script> -->
@@ -77,7 +88,11 @@
     <!-- <script src="./44_Error_handling.js"></script> -->
     <!-- <script src="./46_regular_expression.js"></script> -->
     <!-- <script src="./47_regular_expression_metacharacter.js"></script> -->
-    <script src="./48_regular_expression_characterSets.js"></script>
+    <!-- <script src="./48_regular_expression_characterSets.js"></script> -->
+    <!-- <script src="./49_regular_expression_shortHand_char_classes.js"></script> -->
+    <!-- <script src="./51_iterators.js"></script> -->
+    <script src="./52_Exercise-6.js"></script>
+    <!-- <script src="./53_generators.js"></script> -->
 </body>
 
 </html>
